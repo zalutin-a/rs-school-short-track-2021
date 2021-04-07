@@ -9,7 +9,7 @@
  *
  */
 function getEmailDomain(email) {
-  return email.replace(/(.+@(?=[A-z]))/, '');
+  return email.replace(/(.+@)/, '');
 }
 
 module.exports = getEmailDomain;
